@@ -8,3 +8,4 @@ Alta Conectividade
 Usaremos variáveis como densidade populacional, número de conexões, etc., e nossa variável alvo será uma categoria baseada no Índice de Conectividade.
 """
 
+from sklearn.linear_model import LogisticRegressionCV

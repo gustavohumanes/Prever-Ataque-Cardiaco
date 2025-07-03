@@ -1,7 +1,14 @@
+Dataset Description:
 
-Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
-Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
+Cardiovascular diseases (CVDs) are the leading cause of death worldwide, responsible for approximately 17.9 million deaths annually, which corresponds to 31% of all global deaths.  
+Heart failure is a common outcome of CVDs, and this dataset contains 12 clinical features that can be used to predict mortality due to heart failure.
 
-Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.
+Most cardiovascular diseases can be prevented by addressing behavioral risk factors such as tobacco use, unhealthy diet, obesity, physical inactivity, and harmful alcohol consumption through population-wide strategies.
 
-People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
+Individuals with cardiovascular disease or at high cardiovascular risk (due to one or more factors such as hypertension, diabetes, hyperlipidemia, or established disease) require early detection and management — where machine learning models can offer significant support.
+
+This solo project selected this cardiovascular dataset to demonstrate machine learning skills.
+
+The goal of this project is simple: using the dataset, train a model to predict the likelihood of death caused by heart failure based on patient data.
+
+DataSet: https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data/data
