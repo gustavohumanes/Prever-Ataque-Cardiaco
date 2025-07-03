@@ -12,3 +12,18 @@ This solo project selected this cardiovascular dataset to demonstrate machine le
 The goal of this project is simple: using the dataset, train a model to predict the likelihood of death caused by heart failure based on patient data.
 
 DataSet: https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data/data
+
+
+
+
+Citation
+Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). (link)
+
+License
+CC BY 4.0
+
+Splash icon
+Icon by Freepik, available on Flaticon.
+
+Splash banner
+Wallpaper by jcomp, available on Freepik.
