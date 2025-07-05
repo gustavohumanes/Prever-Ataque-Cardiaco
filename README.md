@@ -13,9 +13,6 @@ The goal of this project is simple: using the dataset, train a model to predict 
 
 DataSet: https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data/data
 
-
-
-
 Citation
 Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020). (link)
 
