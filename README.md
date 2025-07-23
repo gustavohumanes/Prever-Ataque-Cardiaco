@@ -1,3 +1,10 @@
+--------------------------------------------------------------------------------------------------
+Nota importante: Inicialmente eu tinha em mente fazer um projeto correlacionado com os dados do IBC do município, mas acabei desistindo da ideia e fiz esse projeto de prevenção de parada cardíaca.
+
+Important note: Initially, I had in mind to do a project correlated with the municipality's IBC data, but I ended up giving up on the idea and did this cardiac arrest prevention project.
+
+--------------------------------------------------------------------------------------------------
+
 Dataset Description:
 
 Cardiovascular diseases (CVDs) are the leading cause of death worldwide, responsible for approximately 17.9 million deaths annually, which corresponds to 31% of all global deaths.  
