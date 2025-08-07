@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/style.css">
-    <title></title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <title>Projeto</title>
 </head>
 <body>
-    <h1></h1>
-    <!--
-        Como vou fazer para ter várias perguntas? eu vou criar várias páginas HTML, ou vou apenas mudar no texto?
-
-        tenho que aplicar a filosofia do Mobile-first, e relembrar como criar várias telas para uma mesma página com "Select-query" se não me engano.
-    -->
+    <header>
+        <h1>Bem-vindo ao meu código</h1>
+    </header>
+    <main>
+        <p>Este é o conteúdo principal.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Meu Projeto</p>
+    </footer>
 </body>
 </html>

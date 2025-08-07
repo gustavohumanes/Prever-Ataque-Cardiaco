@@ -1,10 +1,9 @@
-print(f"app.py: __name__ = {__name__}")
+from flask import Flask, render_template
 
-def func():
-    print("Função func() dentro de app.py foi chamada")
+app = Flask(__name__)
 
-if __name__ == "__main__":
-    print("app.py está sendo executado diretamente")
-    func()
-else:
-    print("app.py foi importado como módulo")
+@app.route("/")
+def casa():
+    return render_template('index.html')
+
+app.run(debug=True)
