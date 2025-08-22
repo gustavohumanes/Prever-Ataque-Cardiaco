@@ -1,4 +1,4 @@
-// Aguarda o carregamento completo do DOM antes de executar o script
+// Aguarda o carregamento completo do DOM antes de executar o script.
 document.addEventListener("DOMContentLoaded", () => {
 
     // Seleção dos elementos do formulário de permissão

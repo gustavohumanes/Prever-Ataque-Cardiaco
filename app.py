@@ -59,7 +59,7 @@ def salvar_respostas():
     })
 
 # ===============================
-# Executa o Flask em modo debug
+# Executa o Flask em modo debug.
 # ===============================
 if __name__ == "__main__":
     app.run(debug=True)  # Roda o servidor localmente em http://127.0.0.1:5000

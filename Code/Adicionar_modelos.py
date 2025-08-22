@@ -36,4 +36,4 @@ with open("Programa/Modelo_de_prever_AtaqueCardiaco.pkl", "wb") as f_modelo:
 with open("Programa/Scaler_AtaqueCardiaco.pkl", "wb") as f_scaler:
     pickle.dump(scaler, f_scaler)
 
-print("✅ Modelo e scaler salvos com sucesso na pasta 'Programa'.")
+print("✅ Modelo e scaler salvos com sucesso na pasta 'Programa'...")

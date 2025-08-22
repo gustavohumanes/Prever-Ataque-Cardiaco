@@ -63,4 +63,4 @@ predicao = modelo.predict(dados_usuario_escalonados)
 if predicao[0] == 1:
     print("Resultado da previsão: O paciente tem alta chance de morte.")
 else:
-    print("Resultado da previsão: O paciente tem baixa chance de morte (está saudável).")
+    print("Resultado da previsão: O paciente tem baixa chance de morte (está saudável)..")
