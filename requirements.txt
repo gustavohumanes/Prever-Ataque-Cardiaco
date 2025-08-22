@@ -1,0 +1,7 @@
+este texto lista bibliotecas que o servidor precisa instalar:
+
+Flask
+joblib
+numpy
+scikit-learn
+pandas

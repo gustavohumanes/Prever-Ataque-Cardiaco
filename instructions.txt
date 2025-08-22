@@ -1,0 +1,18 @@
+1. Clonar o repositório:
+   git clone <URL_DO_REPOSITORIO>
+
+2. (Opcional, mas recomendado) Criar e ativar um virtualenv:
+   python -m venv venv
+   # Windows
+   venv\Scripts\activate
+   # Linux/Mac
+   source venv/bin/activate
+
+3. Instalar dependências:
+   pip install -r requirements.txt
+
+4. Executar o Flask:
+   python app.py
+
+5. Acessar no navegador (caso não abra sozinho):
+   http://localhost:5000
