@@ -1,3 +1,5 @@
+/* Precisa mesmo de documentar isso daqui?*/
+
 *{
     margin: 0px;
     padding: 5px;
@@ -24,8 +26,6 @@ div.warning {
     padding: 20px;
     text-align: center;
 }
-
-/* ------------------------ Consulta */
 
 .consulta{
     display: none;

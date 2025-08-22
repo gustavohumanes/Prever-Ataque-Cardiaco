@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulta Interativa</title>
+    <meta charset="UTF-8"> <!-- Define a codificação do documento como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade para dispositivos móveis -->
+    <title>Consulta Interativa</title> <!-- Título da aba do navegador -->
+    
+    <!-- Link para o arquivo CSS que estiliza a página -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Link para o arquivo JS que contém a lógica da consulta, defer garante que o script execute após o carregamento do HTML -->
     <script src="main.js" defer></script>
 </head>
-<body>
-    <div class="container">
 
-        <!-- Formulário do aviso -->
+<body>
+    <div class="container"> <!-- Container principal para centralizar e organizar o conteúdo -->
+
+        <!-- ===============================
+             Formulário do aviso
+             =============================== -->
         <form id="permissionForm">
-            <div class="warning">
+            <div class="warning"> <!-- Div que contém o aviso inicial -->
                 <h3>Aviso</h3>
                 <p>
                     Esta página não tem a intenção de substituir, auxiliar ou orientar qualquer prática médica...
                 </p>
                 <p>Você compreende isso?</p>
 
+                <!-- Opção de permissão "Sim" -->
                 <input type="radio" name="resposta" id="yes" required>
                 <label for="yes">Sim</label>
 
+                <!-- Opção de permissão "Não" -->
                 <input type="radio" name="resposta" id="no" required>
                 <label for="no">Não</label>
 
+                <!-- Botão de confirmação do aviso -->
                 <button type="submit" id="confirm">Confirmar</button>
             </div>
         </form>
 
-        <!-- Formulário da consulta -->
+        <!-- ===============================
+             Formulário da consulta
+             =============================== -->
         <form id="consultForm">
-            <div class="consulta" style="display:none;">
-                <img src="medic.png" alt="Médico" id="medic">
-                <p id="Questions"></p>
+            <div class="consulta" style="display:none;"> <!-- Inicialmente escondido; exibido após permissão -->
+                <img src="medic.png" alt="Médico" id="medic"> <!-- Imagem ilustrativa do médico -->
+                
+                <p id="Questions"></p> <!-- Parágrafo onde cada pergunta será exibida dinamicamente via JS -->
+
+                <!-- Input para o usuário digitar a resposta -->
                 <input type="number" id="answerInput" placeholder="Digite sua resposta aqui">
+
+                <!-- Botão para enviar a resposta atual -->
                 <button type="submit" id="nextQuestion">Confirmar</button>
+
+                <!-- Instrução adicional para respostas binárias -->
                 <h6>(Para respostas sim/não use 1 para sim e 0 para não)</h6>
             </div>
         </form>
